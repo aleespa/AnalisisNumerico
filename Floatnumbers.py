@@ -15,7 +15,6 @@ Y  = [f(x) for x in X]
 Y1 = [f1(x) for x in X]
 Y2 = [f2(x) for x in X]
 Y3 = [f3(x) for x in X]
-
 p = plt.figure(figsize=(8,5))
 p = plt.plot(X,Y,color='red',label='Valor Real',alpha=0.7)
 p = plt.scatter(X,Y1,s=1.5,label='Metodo 1')
